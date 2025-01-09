@@ -1,0 +1,17 @@
+{
+    "PolicyVersion": {
+        "Document": {
+            "Version": "2012-10-17",
+            "Statement": [
+                {
+                    "Effect": "Allow",
+                    "Action": "sns:Publish",
+                    "Resource": "arn:aws:sns:us-east-1:529080612383:gd_topic"
+                }
+            ]
+        },
+        "VersionId": "v1",
+        "IsDefaultVersion": true,
+        "CreateDate": "2025-01-08T14:07:42+00:00"
+    }
+}
