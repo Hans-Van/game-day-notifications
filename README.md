@@ -3,6 +3,8 @@
 ## **Project Overview**
 This project focuses on developing a notification system that provides real-time NBA game day score updates to users via SMS or email. By leveraging Amazon SNS, AWS Lambda with Python, Amazon EventBridge, and NBA APIs, it ensures sports enthusiasts receive timely updates. The project serves as a practical example of using cloud computing to build an efficient alert mechanism.
 
+---
+
 ## **Key Features**
 -Retrieves live NBA game scores using a third-party API.
 -Formats and sends game updates to users via SMS or email using Amazon SNS.
@@ -14,8 +16,11 @@ This project focuses on developing a notification system that provides real-time
 -An account at sportsdata.io with an API key for accessing NBA data.
 -A personal AWS account with basic knowledge of AWS and Python.
 
+---
 ## **Technical Architecture**
 ![nba_API](https://github.com/user-attachments/assets/5e19635e-0685-4c07-9601-330f7d1231f9)
+
+---
 
 ## **Technologies Used**
 -Cloud Provider: AWS
@@ -25,6 +30,8 @@ This project focuses on developing a notification system that provides real-time
 -IAM Security: Roles with least privilege policies for secure access.
 
 ---
+
+
 ## **Project Structure**
 ```bash
 game-day-notifications/
@@ -37,6 +44,14 @@ game-day-notifications/
 ├── .gitignore
 └── README.md                        # Project documentation
 
+```
+
+## **Setup Instructions**
+
+## **Clone the Repository**
+```bash
+git clone https://github.com/ifeanyiro9/game-day-notifications.git
+cd game-day-notifications
 ```
 
 ## **Step 1: Create an SNS Topic**
