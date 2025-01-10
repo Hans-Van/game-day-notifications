@@ -25,8 +25,8 @@ This project focuses on developing a notification system that provides real-time
 -IAM Security: Roles with least privilege policies for secure access.
 
 ---
-```markdown
 ## **Project Structure**
+```bash
 game-day-notifications/
 ├── src/
 │   ├── gd_notifications.py          # Main Lambda function code
@@ -37,8 +37,7 @@ game-day-notifications/
 ├── .gitignore
 └── README.md                        # Project documentation
 
----
-
+```
 
 ## **Step 1: Create an SNS Topic**
 1. Log in to AWS Management Console and navigate to SNS.
